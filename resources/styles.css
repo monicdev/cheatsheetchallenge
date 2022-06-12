@@ -1,8 +1,5 @@
 
-html
-{
-    margin: 0;
-}
+
 
 .table_tags, .table_attributes
 {
@@ -10,6 +7,7 @@ html
     border-collapse: collapse;
     width: 650px;
     text-align: center;
+   
 }
 
 td, th
@@ -28,6 +26,7 @@ td, th
     height: 100px;
 }
 
+
 th
 {
     height: 30px;
@@ -37,11 +36,12 @@ body
 {
     text-align: center;
     font-family: 'Roboto', sans-serif; 
-    margin-left: 30%;
-    margin-right: 30%;
     border: 1px solid;
+    width: 40%;
+    margin: 0 auto;
     min-width: 800px;
-   
+    
+
 }
 
 table
@@ -52,36 +52,70 @@ table
 footer 
 {
     margin-top: 40px;
-    background-color: rgb(78, 184, 181);
-    color: white;
+    background-color: #c5dae2;
+    color: #466995;
     padding: 1px;
-    
+   
 }
 
 
 h1 {
     padding: 20px;
-    background-color: rgb(78, 184, 181);
-    color: white;
+    background-color: #c5dae2;
+    color: #466995;
+    
 }
 
 h3
 {
-    background-color: rgb(78, 184, 181);
-    color: white;
+    padding: 5px;
+    background-color: #c5dae2;
+    color: #466995;
+   
 
 }
 
 
 tr:hover
 {
-    background: rgb(78, 184, 181);
-    color: white;
+    background: #c5dae2;
+    color: #466995;
     
 }
 
+article
+{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 15%;
+    padding: 0 5%;
+}
 
+article p
+{
+    font-size:medium;
+    line-height: 25px;
+}
 
+article h2{
+    color: #466995;
+}
+
+article:hover
+{
+    background: #c5dae2;
+    color: #466995;
+}
+
+.mypicture img
+{
+    border-radius: 50px;
+}
+
+.html_logo
+{
+    padding-top: 10px;
+}
 
 
 
